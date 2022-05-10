@@ -62,3 +62,6 @@ All contributions, issues and feature requests are welcome!
 ## Show your support:
 
 Give a :star: if you liked the app
+
+# License
+This project is [MIT](license.txt) licensed.
