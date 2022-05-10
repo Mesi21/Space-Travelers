@@ -1,8 +1,12 @@
 import Missions from './components/Missions';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <Missions />
+    <div className="App">
+      <Navbar />
+      <Missions />
+    </div>
   );
 }
 
