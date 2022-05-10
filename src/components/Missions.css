@@ -1,0 +1,16 @@
+.missions {
+  padding: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid red;
+  border-collapse: collapse;
+  border-color: #e4e4e4;
+  padding: 5px 10px 5px 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
