@@ -5,7 +5,7 @@ const MissionStatus = (props) => {
   const { active } = props;
 
   const statusStyle = {
-    backgroundColor: 'var(--black-1)',
+    backgroundColor: active ? 'var(--green)' : 'var(--black-1)',
     borderRadius: '2px',
     fontSize: '12px',
     padding: '2px 4px',
