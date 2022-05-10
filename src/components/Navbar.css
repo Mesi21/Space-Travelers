@@ -2,7 +2,7 @@ header {
   display: flex;
   height: 60px;
   align-items: center;
-  border-bottom: 1px groove gray;
+  border-bottom: 2px groove var(--black-2);
 }
 
 .logo-title {

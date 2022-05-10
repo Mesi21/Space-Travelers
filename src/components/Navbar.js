@@ -8,6 +8,7 @@ const Navbar = () => (
       <img src={logo} alt="Logo" />
       <h1>Space Travelers Hub</h1>
     </div>
+    <nav></nav>
   </header>
 );
 
