@@ -1,13 +1,16 @@
-import AllRockets from './components/AllRockets';
-import Missions from './components/Missions';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import routes from './routes';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <AllRockets />
-      <Missions />
+      <Routes>
+        { routes.map((route) => (
+          <Route path={route.path} element={route.element} key={route.id} />
+        ))}
+      </Routes>
     </div>
   );
 }
