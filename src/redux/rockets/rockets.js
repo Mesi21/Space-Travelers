@@ -43,7 +43,6 @@ export const getRocketList = () => async (dispatch) => {
     name: rocket.rocket_name,
     img: rocket.flickr_images[0],
   }));
-  console.log(`${infoArr[0].desc} from reducer`);
   dispatch(getRockets(infoArr));
 };
 
