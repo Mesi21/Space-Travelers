@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Rocket from './Rocket';
-import '../styles/AllRockets.css';
+import './AllRockets.css';
 
 class AllRockets extends Component {
   constructor(props) {
