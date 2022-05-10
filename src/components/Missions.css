@@ -2,7 +2,9 @@
   padding: 10px;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid red;
   border-collapse: collapse;
   border-color: #e4e4e4;
