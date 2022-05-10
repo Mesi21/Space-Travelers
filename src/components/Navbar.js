@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/planet.png';
 import routes from '../routes';
 import './Navbar.css';
@@ -14,7 +15,7 @@ const Navbar = () => (
         {
           routes.map((route) => (
             <li key={route.id}>
-              <a href={route.path}>{route.title}</a>
+              <NavLink to={route.path}>{route.title}</NavLink>
             </li>
           ))
         }
