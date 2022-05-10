@@ -2,17 +2,17 @@ const routes = [
   {
     id: 0,
     path: '/',
-    title: 'Rockets'
+    title: 'Rockets',
   },
   {
     id: 1,
     path: '/missions',
-    title: 'Missions'
+    title: 'Missions',
   },
   {
     id: 0,
     path: '/profile',
-    title: 'My Profile'
+    title: 'My Profile',
   },
 ];
 

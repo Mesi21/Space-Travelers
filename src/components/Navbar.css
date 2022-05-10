@@ -1,6 +1,7 @@
 header {
   display: flex;
   height: 60px;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 2px groove var(--black-2);
 }
@@ -18,4 +19,18 @@ header {
 
 .logo-title h1 {
   color: var(--black);
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+}
+
+.menu-list li {
+  padding: 0 8px 0 8px;
+  color: var(--purple);
+}
+
+.menu-list li:last-child {
+  border-left: 1px solid var(--black);
 }

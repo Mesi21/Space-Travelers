@@ -1,5 +1,7 @@
 import React from 'react';
+// import { NavLink } from 'react-router-dom';
 import logo from '../assets/planet.png';
+import routes from '../routes';
 import './Navbar.css';
 
 const Navbar = () => (
@@ -8,7 +10,17 @@ const Navbar = () => (
       <img src={logo} alt="Logo" />
       <h1>Space Travelers Hub</h1>
     </div>
-    <nav></nav>
+    <nav>
+      <ul className="menu-list">
+        {
+          routes.map((route) => (
+            <li key={route.id}>
+              <a to={route.path}>{route.title}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
   </header>
 );
 
