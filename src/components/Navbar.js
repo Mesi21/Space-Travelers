@@ -15,7 +15,7 @@ const Navbar = () => (
         {
           routes.map((route) => (
             <li key={route.id}>
-              <NavLink to={route.path}>{route.title}</NavLink>
+              <NavLink className={({ isActive }) => (isActive ? 'menu-item active' : 'menu-item')} to={route.path}>{route.title}</NavLink>
             </li>
           ))
         }
