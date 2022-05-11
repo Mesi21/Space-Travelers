@@ -26,9 +26,15 @@ header {
   list-style: none;
 }
 
-.menu-list li {
-  padding: 0 8px 0 8px;
+.menu-item {
+  padding: 0 15px 0 15px;
   color: var(--purple);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu-item.active {
+  text-decoration: underline;
 }
 
 .menu-list li:last-child {
