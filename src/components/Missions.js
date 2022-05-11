@@ -32,7 +32,7 @@ const Missions = () => {
                 <MissionStatus active />
               </td>
               <td>
-                <button type="button">Join a Mission</button>
+                <button className="join-mission-btn" type="button">Join Mission</button>
               </td>
             </tr>
           ))}
