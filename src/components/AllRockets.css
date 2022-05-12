@@ -29,6 +29,24 @@ img {
 .details {
   width: 70%;
   padding: 5px 10px;
+  justify-content: center;
+}
+
+.res {
+  justify-content: center;
+  align-items: center;
+}
+
+#reserved {
+  width: fit-content;
+  padding: 3px;
+  height:15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  background-color: var(--green);
+  color: var(--white);
 }
 
 .details button {

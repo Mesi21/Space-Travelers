@@ -24,13 +24,14 @@ const rocketsReducer = (state = stateInit, action) => {
   switch (action.type) {
     case ADD_RESERVATION: {
       const nextState = state.map((rocket) => (
-        (rocket.id !== action.payload.id) ? rocket : { ...rocket, reserv: true }));
+        (rocket.id !== action.payload) ? rocket : { ...rocket, reserv: true }));
       return [...nextState];
     }
     case GET_ROCKETS:
       return action.payload;
     case DELETE_RESERVATION:
-      return state.filter((rocket) => rocket.id !== action.payload.id);
+      return state.map((rocket) => (
+        (rocket.id !== action.payload) ? rocket : { ...rocket, reserv: false }));
     default:
       return state;
   }
