@@ -22,8 +22,11 @@ export const deleteReservation = (payload) => ({
 
 const rocketsReducer = (state = stateInit, action) => {
   switch (action.type) {
-    case ADD_RESERVATION:
-      return [...state, action.payload];
+    case ADD_RESERVATION: {
+      const nextState = state.map((rocket) => (
+        (rocket.id !== action.payload.id) ? rocket : { ...rocket, reserv: true }));
+      return [...nextState];
+    }
     case GET_ROCKETS:
       return action.payload;
     case DELETE_RESERVATION:
@@ -42,6 +45,7 @@ export const getRocketList = () => async (dispatch) => {
     desc: rocket.description,
     name: rocket.rocket_name,
     img: rocket.flickr_images[0],
+    reserv: false,
   }));
   dispatch(getRockets(infoArr));
 };
