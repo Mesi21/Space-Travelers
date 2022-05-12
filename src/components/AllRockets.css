@@ -38,13 +38,9 @@ img {
 }
 
 #reserved {
-  width: fit-content;
-  padding: 3px;
-  height:15px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  border-radius: 2px;
+  margin-right: 10px;
+  padding: 2px 5px;
+  font-size: small;
   background-color: var(--green);
   color: var(--white);
 }

@@ -12,7 +12,7 @@ const Rocket = ({
 
   const resBtn = (<button type="button" className="reserveBtn" onClick={reserve}>Reserve Rocket</button>);
   const delBtn = (<button type="button" className="reserveBtn" onClick={cancel}>Cancel Reservation</button>);
-  const reserved = (<p id="reserved">Reserved</p>);
+  const reserved = (<mark id="reserved">Reserved</mark>);
 
   return (
     <div id={id} className="rocketInfo flex-row">
@@ -20,8 +20,10 @@ const Rocket = ({
       <div className="details flex-col">
         <h1>{name}</h1>
         <span className="res flex-row">
-          {(reserv) ? reserved : null }
-          <p>{desc}</p>
+          <p>
+            {(reserv) ? reserved : null }
+            {desc}
+          </p>
         </span>
         {(reserv === false) ? resBtn : delBtn }
       </div>
