@@ -4,6 +4,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px groove var(--black-2);
+  margin-bottom: 30px;
 }
 
 .logo-title {

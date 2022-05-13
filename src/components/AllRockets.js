@@ -15,6 +15,7 @@ const AllRockets = () => {
           desc={r.desc}
           reserv={r.reserv}
         />
+        <div className="stars">***</div>
       </div>
     ))
   );

@@ -21,7 +21,7 @@ const MyProfile = () => {
             />
           ))
         ) : (
-          <tr className="noReserv"><td>No Rreserved rockets</td></tr>
+          <div className="noReserv"><h3>No Rreserved rockets</h3></div>
         )}
       </div>
     </div>
