@@ -20,6 +20,7 @@ const AllRockets = () => {
           name={r.name}
           img={r.img}
           desc={r.desc}
+          reserv={r.reserv}
         />
       </div>
     ))
