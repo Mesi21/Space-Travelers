@@ -10,7 +10,7 @@ const MyProfile = () => {
   const myRockets = rockets.filter((rocket) => rocket.reserv);
 
   return (
-    <div className="page">
+    <div className="contained page">
       <div className="my-missions">
         <h2>My Missions</h2>
         {myMissions.length === 0

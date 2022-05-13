@@ -54,7 +54,7 @@ const Missions = () => {
   }
 
   return (
-    <div className="missions">
+    <div className="contained missions">
       {content}
     </div>
   );

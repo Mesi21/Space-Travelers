@@ -7,17 +7,19 @@ const AllRockets = () => {
   const rockets = useSelector((state) => state.rocketsReducer);
 
   return (
-    rockets.map((r) => (
-      <div key={r.id}>
-        <Rocket
-          id={r.id}
-          name={r.name}
-          img={r.img}
-          desc={r.desc}
-          reserv={r.reserv}
-        />
-      </div>
-    ))
+    <div className="contained">
+      {rockets.map((r) => (
+        <div key={r.id}>
+          <Rocket
+            id={r.id}
+            name={r.name}
+            img={r.img}
+            desc={r.desc}
+            reserv={r.reserv}
+          />
+        </div>
+      ))}
+    </div>
   );
 };
 
