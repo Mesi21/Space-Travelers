@@ -39,7 +39,7 @@ const Missions = () => {
               <td>{mission.mission_name}</td>
               <td>{mission.description}</td>
               <td>
-                <MissionStatus active />
+                <MissionStatus active={mission.joined} />
               </td>
               <td>
                 { mission.joined
