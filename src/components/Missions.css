@@ -21,4 +21,5 @@ tr:nth-child(even) {
   background-color: transparent;
   border: 2px solid var(--black-1);
   color: var(--black);
+  cursor: pointer;
 }
