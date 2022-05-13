@@ -5,7 +5,8 @@ const url = 'https://api.spacexdata.com/v3/missions';
 const GET_MISSIONS_LOADING = 'spacetravels/GET_MISSIONS_LOADING';
 const GET_MISSIONS_FAILURE = 'spacetravels/GET_MISSIONS_FAILURE';
 const GET_MISSIONS_SUCCESS = 'spacetravels/GET_MISSIONS_SUCCESS';
-const JOIN_MISSION = 'spacetravels/JOIN_MISSIONS';
+const JOIN_MISSION = 'spacetravels/JOIN_MISSION';
+const LEAVE_MISSION = 'spacetravels/LEAVE_MISSION';
 
 export const getMissionsLoading = () => ({ type: GET_MISSIONS_LOADING });
 export const getMissionsFailure = (errMessage) => ({
@@ -14,6 +15,8 @@ export const getMissionsFailure = (errMessage) => ({
 });
 export const getMissionsSuccess = (missions) => ({ type: GET_MISSIONS_SUCCESS, payload: missions });
 export const joinMission = (missionId) => ({ type: JOIN_MISSION, payload: missionId });
+export const leaveMission = (missionId) => ({ type: LEAVE_MISSION, payload: missionId });
+
 export const getMissions = () => (dispatch) => {
   dispatch(getMissionsLoading());
   fetch(url)
@@ -42,6 +45,16 @@ const missions = (state = initialMissions, action) => {
             return mission;
           }
           return { ...mission, joined: true };
+        }),
+      };
+    case LEAVE_MISSION:
+      return {
+        ...state,
+        missions: state.missions.map((mission) => {
+          if (mission.id !== action.payload) {
+            return mission;
+          }
+          return { ...mission, joined: false };
         }),
       };
     default:
