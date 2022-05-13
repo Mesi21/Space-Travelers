@@ -41,7 +41,7 @@ const missions = (state = initialMissions, action) => {
       return {
         ...state,
         missions: state.missions.map((mission) => {
-          if (mission.id !== action.payload) {
+          if (mission.mission_id !== action.payload) {
             return mission;
           }
           return { ...mission, joined: true };
@@ -51,7 +51,7 @@ const missions = (state = initialMissions, action) => {
       return {
         ...state,
         missions: state.missions.map((mission) => {
-          if (mission.id !== action.payload) {
+          if (mission.mission_id !== action.payload) {
             return mission;
           }
           return { ...mission, joined: false };
