@@ -32,6 +32,14 @@ img {
   justify-content: center;
 }
 
+.details h1 {
+  margin-bottom: 10px;
+}
+
+.details button {
+  margin-top: 10px;
+}
+
 .res {
   justify-content: center;
   align-items: center;
@@ -45,11 +53,20 @@ img {
   color: var(--white);
 }
 
-.details button {
+#reserveBtn {
   width: 20%;
   height: 2rem;
   background-color: var(--light-blue);
   color: var(--white);
   border: 0;
+  border-radius: 3px;
+}
+
+#cancelBtn {
+  width: 20%;
+  height: 2rem;
+  background-color: var(--white);
+  color: var(--black-1);
+  border: 1px solid var(--black-1);
   border-radius: 3px;
 }

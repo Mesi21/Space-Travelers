@@ -10,8 +10,8 @@ const Rocket = ({
   const reserve = () => dispatchAction(addReservation(id));
   const cancel = () => dispatchAction(deleteReservation(id));
 
-  const resBtn = (<button type="button" className="reserveBtn" onClick={reserve}>Reserve Rocket</button>);
-  const delBtn = (<button type="button" className="reserveBtn" onClick={cancel}>Cancel Reservation</button>);
+  const resBtn = (<button type="button" id="reserveBtn" onClick={reserve}>Reserve Rocket</button>);
+  const delBtn = (<button type="button" id="cancelBtn" onClick={cancel}>Cancel Reservation</button>);
   const reserved = (<mark id="reserved">Reserved</mark>);
 
   return (
