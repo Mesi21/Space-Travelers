@@ -1,15 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test for rendering the RocketsPage Component`] = `
+exports[`Test the Rockets Component rockets section renders 1`] = `
 <div>
   <div
-    class="container"
-  >
-    <ul
-      class="flex1"
-    />
-  </div>
+    class="contained"
+  />
 </div>
 `;
-
-exports[`Test the Rockets Component rockets section renders 1`] = `<div />`;
