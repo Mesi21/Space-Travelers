@@ -1,18 +1,16 @@
-# Soon to be updated....
-
-# Task Manager
+# Space Travelers Hub
 
 <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 
-This project is about building a library application using React.
-User can add and remove books, filter them by categories. 
-It was created with [Create-React-App](https://github.com/facebook/create-react-app)
+> This website is for a company that provides commercial and scientific space travel services. TThe website allow users to book rockets and join selected space missions.
+> 
+It is created with [Create-React-App](https://github.com/facebook/create-react-app)
 
 ---
 
 ## Screenshot
 
-![screenshot](.jpg)
+![missionspage](https://user-images.githubusercontent.com/12524453/168415237-3fdd2745-9e46-41cb-befa-b061b5f9b02a.png)
 
 ## Live version
 
@@ -38,12 +36,18 @@ For the live version of this project visit the following [Netlify](https:// .app
 - Nodejs
 - HTML && CSS
 
-## Author
+## Authors
 
 #### :bust_in_silhouette: Molnar Emese 
   - [Mesi21](https://github.com/Mesi21)
   - [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/).  
   - [Twitter](https://twitter.com/buksimesi21) 
+
+#### :bust_in_silhouette: Wuletaw Wonte 
+  - [Mesi21](https://github.com/wuletawwonte)
+  - [LinkedIn](https://www.linkedin.com/in/wuletaw-wonte/).  
+  - [Twitter](https://twitter.com/wuletaww) 
+
 
 ## Future functionalities:
 
@@ -64,4 +68,4 @@ All contributions, issues and feature requests are welcome!
 Give a :star: if you liked the app
 
 # License
-This project is [MIT](license.txt) licensed.
+This project is [MIT](LICENSE.md) licensed.
