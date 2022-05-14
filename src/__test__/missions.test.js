@@ -1,4 +1,4 @@
-import missions from "../redux/missions/missions";
+import missions from '../redux/missions/missions';
 
 describe('testing getting missions from store', () => {
   it('should return initial state', () => {
@@ -7,7 +7,7 @@ describe('testing getting missions from store', () => {
       loading: false,
       errMessage: null,
     };
-    expect(missions(initialMissions, {type: ''})).toEqual({missions: [], loading: false, errMessage: null});
+    expect(missions(initialMissions, { type: '' })).toEqual({ missions: [], loading: false, errMessage: null });
   });
 
   it('should return all missions', () => {
@@ -30,21 +30,19 @@ describe('testing getting missions from store', () => {
         wikipedia: 'https://en.wikipedia.org/wiki/Telesat',
         website: 'https://www.telesat.com/',
         twitter: null,
-        description: 'Telstar 19V (Telstar 19 Vantage) is a communication satellite in the Telstar series of the Canadian satellite communications company Telesat. It was built by Space Systems Loral (MAXAR) and is based on the SSL-1300 bus. As of 26 July 2018, Telstar 19V is the heaviest commercial communications satellite ever launched, weighing at 7,076 kg (15,600 lbs) and surpassing the previous record, set by TerreStar-1 (6,910 kg/15230lbs), launched by Ariane 5ECA on 1 July 2009.'
-      },    
+        description: 'Telstar 19V (Telstar 19 Vantage) is a communication satellite in the Telstar series of the Canadian satellite communications company Telesat. It was built by Space Systems Loral (MAXAR) and is based on the SSL-1300 bus. As of 26 July 2018, Telstar 19V is the heaviest commercial communications satellite ever launched, weighing at 7,076 kg (15,600 lbs) and surpassing the previous record, set by TerreStar-1 (6,910 kg/15230lbs), launched by Ariane 5ECA on 1 July 2009.',
+      },
     ];
 
     const action = {
       type: 'spacetravels/GET_MISSIONS_SUCCESS',
-      payload: missionsData
-    }
+      payload: missionsData,
+    };
 
     expect(missions(undefined, action)).toEqual({
       missions: missionsData,
       loading: false,
-      errMessage: null
+      errMessage: null,
     });
-
   });
-
 });
