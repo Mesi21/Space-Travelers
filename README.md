@@ -2,7 +2,7 @@
 
 <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 
-> This website is for a company that provides commercial and scientific space travel services. TThe website allow users to book rockets and join selected space missions.
+> This website is for a company that provides commercial and scientific space travel services. The website allow users to book rockets and join selected space missions.
 > 
 It is created with [Create-React-App](https://github.com/facebook/create-react-app)
 
@@ -44,7 +44,7 @@ For the live version of this project visit the following [Netlify](https:// .app
   - [Twitter](https://twitter.com/buksimesi21) 
 
 #### :bust_in_silhouette: Wuletaw Wonte 
-  - [Mesi21](https://github.com/wuletawwonte)
+  - [wuletawwonte](https://github.com/wuletawwonte)
   - [LinkedIn](https://www.linkedin.com/in/wuletaw-wonte/).  
   - [Twitter](https://twitter.com/wuletaww) 
 
