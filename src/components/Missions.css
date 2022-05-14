@@ -1,0 +1,31 @@
+
+table,
+th,
+td {
+  border: 1px solid red;
+  border-collapse: collapse;
+  border-color: #e4e4e4;
+  padding: 5px 10px 5px 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.btn {
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 7px;
+}
+
+.join-mission {
+  border: 2px solid var(--black-1);
+  background-color: transparent;
+  color: var(--black);
+}
+
+.leave-mission {
+  border: 2px solid var(--red);
+  background-color: transparent;
+  color: var(--red);
+}

@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Space Travelers Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 
-## Available Scripts
+> This website is for a company that provides commercial and scientific space travel services. TThe website allow users to book rockets and join selected space missions.
+> 
+It is created with [Create-React-App](https://github.com/facebook/create-react-app)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![missionspage](https://user-images.githubusercontent.com/12524453/168415237-3fdd2745-9e46-41cb-befa-b061b5f9b02a.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live version
 
-### `npm test`
+For the live version of this project visit the following [Netlify](https:// .app/) and [Heroku](https:// .herokuapp.com/) links.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Get started
 
-### `npm run build`
+```bash
+   git clone git@github.com:Mesi21/Space-Travelers.git
+   cd into the folder by typing: cd Space-Travelers
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ :heavy_plus_sign: add your contribution if you'd like
+ And please feel free to make a PR
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ ## Technology
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React-Create-App
+- React-DOM
+- Redux
+- npm
+- Javascript ES6
+- Nodejs
+- HTML && CSS
 
-### `npm run eject`
+## Authors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### :bust_in_silhouette: Molnar Emese 
+  - [Mesi21](https://github.com/Mesi21)
+  - [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/).  
+  - [Twitter](https://twitter.com/buksimesi21) 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### :bust_in_silhouette: Wuletaw Wonte 
+  - [Mesi21](https://github.com/wuletawwonte)
+  - [LinkedIn](https://www.linkedin.com/in/wuletaw-wonte/).  
+  - [Twitter](https://twitter.com/wuletaww) 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 Contributing
+All contributions, issues and feature requests are welcome!
 
-## Learn More
+1. Fork it (https://github.com/Mesi21/Space-Travelers.git)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new Pull Request
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a :star: if you liked the app
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+This project is [MIT](LICENSE.md) licensed.

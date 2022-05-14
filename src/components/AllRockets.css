@@ -1,0 +1,77 @@
+div {
+  margin: 0;
+}
+
+.stars {
+  width: 100%;
+  text-align: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.rocketInfo {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rocketImg {
+  width: 30%;
+}
+
+img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.details {
+  width: 70%;
+  padding: 5px 10px;
+  justify-content: center;
+}
+
+.details h1 {
+  margin-bottom: 10px;
+}
+
+.details button {
+  margin-top: 10px;
+}
+
+.res {
+  justify-content: center;
+  align-items: center;
+}
+
+#reserved {
+  margin-right: 10px;
+  padding: 2px 5px;
+  font-size: small;
+  background-color: var(--green);
+  color: var(--white);
+}
+
+#reserveBtn {
+  width: 20%;
+  height: 2rem;
+  background-color: var(--light-blue);
+  color: var(--white);
+  border: 0;
+  border-radius: 3px;
+}
+
+#cancelBtn {
+  width: 20%;
+  height: 2rem;
+  background-color: var(--white);
+  color: var(--black-1);
+  border: 1px solid var(--black-1);
+  border-radius: 3px;
+}
