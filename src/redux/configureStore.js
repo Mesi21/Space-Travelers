@@ -2,7 +2,7 @@ import { legacy_createStore as createStore, combineReducers, applyMiddleware } f
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
 import missions from './missions/missions';
-import rocketsReducer, { getRocketList } from './rockets/rockets';
+import rocketsReducer from './rockets/rockets';
 
 const rootReducer = combineReducers({
   rocketsReducer,
@@ -13,7 +13,5 @@ const store = createStore(
   rootReducer,
   applyMiddleware(logger, thunk),
 );
-
-store.dispatch(getRocketList());
 
 export default store;
