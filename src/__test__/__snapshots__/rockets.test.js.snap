@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Test the Rockets Component rockets section renders 1`] = `
-<div>
-  <div
-    class="contained"
-  />
-</div>
-`;
