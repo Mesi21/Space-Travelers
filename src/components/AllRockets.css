@@ -2,6 +2,11 @@ div {
   margin: 0;
 }
 
+.stars {
+  width: 100%;
+  text-align: center;
+}
+
 .flex-col {
   display: flex;
   flex-direction: column;
