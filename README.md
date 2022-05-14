@@ -49,11 +49,6 @@ For the live version of this project visit the following [Netlify](https:// .app
   - [Twitter](https://twitter.com/wuletaww) 
 
 
-## Future functionalities:
-
-- Add daily tasks based on calendar
-- Filter tasks by categories
-
 ## 🤝 Contributing
 All contributions, issues and feature requests are welcome!
 
